@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="DBAssit:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DBAssit_jar</output-path>
+    <root id="archive" name="DBAssit.jar">
+      <element id="module-output" name="DBAssit" />
+    </root>
+  </artifact>
+</component>
