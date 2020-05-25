@@ -50,8 +50,8 @@ public class BeanListHandler<T> implements ResultSetHandler {
                     Object columnValue = rs.getObject(columnName);
                     //通过执行写方法把得到的值给属性赋上
                     method.invoke(obj, columnValue);
-                    list.add(obj);
                 }
+                list.add(obj);
             }
             return list;
         } catch (Exception e) {
